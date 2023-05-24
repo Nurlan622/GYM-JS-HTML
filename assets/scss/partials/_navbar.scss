@@ -1,0 +1,65 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background-color: #fff;
+
+    hr {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #top-menu {
+        height: 72px;
+
+        .row .col-4 {
+            a {
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 199px;
+                }
+            }
+        }
+
+        .row .phone {
+            .box-tel {
+                padding: 25px;
+                background-color: red;
+
+                i {
+                    font-size: 25px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#header {
+    .container #nav-menu {
+        ul {
+            li {
+                padding: 10px;
+
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: black;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #f6214b;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.color-red {
+    color: #f6214b !important;
+}

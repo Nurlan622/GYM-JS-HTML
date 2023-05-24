@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}   
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+
+
+.w-100 {
+    width: 100%;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+input,
+button,
+textarea {
+    outline: none;
+}
+
+input {
+    border: .5px solid gray;
+    padding: 10px;
+    margin: .5em 0;
+    border-radius: 2.5px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.ml-2 {
+    margin-left: 20px;
+}
+.ml-4{
+    margin-top:px;
+    margin-left: 150px;
+}
+.spc-around {
+    display: flex;
+    flex-flow: wrap;   
+}
+.spc-between{
+    justify-content: space-between;
+}
+.item{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.border{
+    margin: 25px 0px;
+    border: 1px solid silver;
+    height: 350px;
+    border-radius: 5px;
+}
+.menu{
+    list-style: none;
+}
+.bc-color-white{
+    background-color: white;
+}
